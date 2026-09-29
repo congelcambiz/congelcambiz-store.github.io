@@ -1,28 +1,28 @@
 # congelcambiz — Running Store
 
-Tienda estática y responsive de running creada con **HTML, CSS y JavaScript puro**. Incluye catálogo de productos reales, carrito local, filtros, buscador, soporte/asesoría y diseño listo para GitHub Pages.
+A static, responsive running store built with **HTML, CSS, and vanilla JavaScript**. It includes a catalog of real products, a local shopping cart, filters, search, customer support/advice, and a design ready for GitHub Pages.
 
-## Incluye
+## What is included
 
-- 15 productos reales: 9 tenis, 3 medias, 2 gorras y 1 accesorio de hidratación.
-- Fotografías oficiales enlazadas desde las páginas/CDN de las marcas.
-- Precios de referencia en USD verificados el **29 de septiembre de 2026**.
-- Carrito funcional con `localStorage`.
-- Buscador y filtros por categoría.
-- Diseño responsive para móvil, tablet y escritorio.
-- Logo de congelcambiz incluido en `assets/brand/logo.png`.
-- Número de soporte de demostración: **+1 (202) 555-0147**.
-- Email de demostración: **support@congelcambiz.com**.
+- 15 real products: 9 running shoes, 3 pairs of socks, 2 caps, and 1 hydration accessory.
+- Official product photos linked from brand websites/CDNs.
+- Reference prices in USD verified on **September 29, 2026**.
+- Functional shopping cart using `localStorage`.
+- Search and category filters.
+- Responsive design for mobile, tablet, and desktop.
+- congelcambiz logo included in `assets/brand/logo.png`.
+- Demo support phone number: **+1 (202) 555-0147**.
+- Demo email address: **support@congelcambiz.com**.
 
-## Importante antes de publicar como comercio real
+## Important before using this as a real online store
 
-1. Reemplaza el teléfono y el correo de demostración por tus datos comerciales reales.
-2. Conecta un checkout real (Stripe, Shopify, WooCommerce u otro) y un sistema de inventario.
-3. Verifica nuevamente precios, tallas, disponibilidad, impuestos, envíos y políticas de devolución.
-4. Obtén las autorizaciones necesarias para utilizar imágenes, marcas y recursos de terceros con fines comerciales. En este proyecto las imágenes se cargan desde URLs oficiales externas y requieren conexión a internet.
-5. Agrega tus textos legales: privacidad, términos, devoluciones y políticas de envío.
+1. Replace the demo phone number and email address with your real business contact information.
+2. Connect a real checkout system (Stripe, Shopify, WooCommerce, or another provider) and an inventory system.
+3. Recheck prices, sizes, availability, taxes, shipping costs, and return policies.
+4. Obtain any permissions required to use third-party product images, trademarks, and other assets commercially. In this project, product images are loaded from official external URLs and require an internet connection.
+5. Add your legal pages and policies, including privacy, terms, returns, and shipping.
 
-## Estructura
+## Project structure
 
 ```text
 congelcambiz-store/
@@ -39,22 +39,22 @@ congelcambiz-store/
 └── README.md
 ```
 
-## Abrir localmente
+## Open locally
 
-Abre `index.html` en Chrome, Edge, Firefox o Safari. Para una experiencia más cercana a producción, puedes usar la extensión Live Server de VS Code.
+Open `index.html` in Chrome, Edge, Firefox, or Safari. For a development-style local server, you can use the Live Server extension in VS Code.
 
-## Publicar en GitHub Pages
+## Publish with GitHub Pages
 
-1. Sube todo el contenido de esta carpeta a tu repositorio `congelcambiz-store`.
-2. En GitHub abre **Settings → Pages**.
-3. En **Build and deployment**, elige **Deploy from a branch**.
-4. Selecciona la rama `main` y la carpeta `/ (root)`.
-5. Guarda y espera a que GitHub publique la URL.
+1. Upload all files from this folder to your `congelcambiz-store` repository.
+2. On GitHub, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/ (root)` folder.
+5. Save the settings and wait for GitHub to publish your site URL.
 
-## Editar productos
+## Edit products
 
-El catálogo está en `js/app.js`, dentro del arreglo `products`. Cada producto tiene nombre, marca, categoría, precio, foto y URL de fuente.
+The catalog is stored in `js/app.js` inside the `products` array. Each product includes a name, brand, category, price, photo URL, and source URL.
 
-## Aviso
+## Disclaimer
 
-Las marcas, nombres comerciales e imágenes de productos pertenecen a sus respectivos propietarios. Este paquete es una plantilla de e-commerce y no implica afiliación, autorización ni patrocinio de las marcas listadas.
+Brand names, trademarks, and product images belong to their respective owners. This package is an e-commerce template and does not imply affiliation with, authorization from, or sponsorship by the listed brands.
